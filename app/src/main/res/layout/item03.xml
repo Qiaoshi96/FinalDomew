@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/three_font"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:background="#ff6677"
+        android:text="春风十里不如你"/>
+    <LinearLayout
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/three_img"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="120dp"
+            android:padding="3dp"/>
+        <ImageView
+            android:id="@+id/three_imgs"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="120dp" />
+
+    </LinearLayout>
+</LinearLayout>
